@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="images/logo.png" alt="">
     <img src="images/logoOrange.png" alt="">
+    <img src="images/logoOrange2.png" alt="">
     <img src="images/logoRed.png" alt="">
+    <img src="images/logoRed2.png" alt="">
 
     
 </body>
