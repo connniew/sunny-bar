@@ -4,8 +4,7 @@
 <?php include 'header.php';?>
 
 <body>
-    <img src="images/logoOrange2.png" alt="">
-    <img src="images/logo2.png" alt="">
+    <img src="images/logo.png" alt="">
 </body>
 
 </html>
