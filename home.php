@@ -6,19 +6,7 @@
 
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="images/logo-desktop-blue.png" alt="logo">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="menu.php">Menu</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <?php include 'navbar.php';?>
     </header>
     <!-- <img src="images/logo-desktop-black.png" alt="">
     <img src="images/logo-desktop-blue.png" alt="">
