@@ -17,5 +17,5 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favico/favicon-16x16.png">
     <link rel="manifest" href="images/favico/site.webmanifest">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css?<?php echo time(); ?>">
 </head>

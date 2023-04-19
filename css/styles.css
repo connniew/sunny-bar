@@ -1,7 +1,14 @@
-body {
-    background-color: antiquewhite;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fdf49a;
+  height: 20rem;
 }
 
 img {
-    width: 25rem;
-}
+  width: 25rem;
+}/*# sourceMappingURL=styles.css.map */
