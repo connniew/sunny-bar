@@ -5,10 +5,10 @@
     <div class="menu">
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">About us</a></li>
+            <li><a href="">About</a></li>
             <li><a href="">Shop Online</a></li>
-            <li><a href="">Locations</a></li>
-            <li><a href="">Login</a></li>
+            <li><a href="">Find Locations</a></li>
+            <li><a href="">Login/Sign Up</a></li>
             <li><a href="">Shopping Cart</a></li>
         </ul>
     </div>
