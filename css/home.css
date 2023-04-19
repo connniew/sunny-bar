@@ -6,9 +6,8 @@
 
 header {
   background-color: #fdf49a;
-  height: 20rem;
 }
 
-img {
+.logo img {
   width: 25rem;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=home.css.map */

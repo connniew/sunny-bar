@@ -1,0 +1,10 @@
+@import "variables";
+@import "reset";
+
+header {
+    background-color: $primary-background-color;
+}
+
+.logo img {
+    width: 25rem;
+}
