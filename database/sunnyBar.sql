@@ -17,8 +17,8 @@ ALTER TABLE Customer AUTO_INCREMENT=10;
 
 CREATE TABLE Product (
   productID INT AUTO_INCREMENT, 
-  name VARCHAR(50) UNIQUE,
-  price DECIMAL(10,2),
+  productName VARCHAR(50) UNIQUE,
+  productPrice DECIMAL(10,2),
   qtyInStock INT DEFAULT 0,
   PRIMARY KEY (productID)
 );
@@ -29,7 +29,7 @@ CREATE TABLE Orders (
   customerID INT,
   orderTotal DECIMAL(10,2),
   dateOrdered DATE DEFAULT CURRENT_DATE(),
-  dateReceived DATE,
+  dateShipped DATE,
   PRIMARY KEY (orderID),
   FOREIGN KEY (customerID) REFERENCES Customer(customerID) ON DELETE CASCADE
 );
