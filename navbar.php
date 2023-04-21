@@ -1,9 +1,9 @@
-<nav>
+<nav class="navbar flex">
     <div class="logo">
         <img src="images/logo-desktop-blue.png" alt="logo">
     </div>
     <div class="menu">
-        <ul>
+        <ul class="flex">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Shop Online</a></li>
