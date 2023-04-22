@@ -1,6 +1,6 @@
 <nav class="navbar flex">
     <div class="logo">
-        <img src="images/logo-desktop-blue.png" alt="logo">
+        <img src="images/logo-desktop.png" alt="logo">
     </div>
     <div class="menu">
         <ul class="flex">
