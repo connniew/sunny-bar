@@ -1,0 +1,56 @@
+/* Y: #fdf49a; */
+/* B: #364F6B; */
+
+header {
+  background-color: #fdf49a;
+}
+
+.logo {
+  width: 10rem;
+  padding: 1rem;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+.menu li {
+  margin: 1rem 2rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  header {
+    background-color: gold;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  header {
+    background-color: greenyellow;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  header {
+    background-color: lightblue;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  header {
+    background-color: turquoise;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  header {
+    background-color: deepskyblue;
+  }
+}
