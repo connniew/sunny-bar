@@ -14,6 +14,9 @@
     <img src="images/logo-mobile-blue.png" alt="">
     <img src="images/logo-sun-black.png" alt="">
     <img src="images/logo-sun-blue.png" alt=""> -->
+
+    <h1 class="black">Homepage</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est corrupti quos quis iste labore? Eligendi alias, nobis tenetur facere, rerum consequuntur sapiente omnis id aperiam libero nam atque optio.</p>
 </body>
 
 </html>

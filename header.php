@@ -17,8 +17,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favico/favicon-16x16.png">
     <link rel="manifest" href="images/favico/site.webmanifest">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4f6feac275.js" crossorigin="anonymous"></script>
+    
     <!-- css -->
     <link rel="stylesheet" href="css/header.css?<?php echo time(); ?>">
     <link rel="stylesheet" href="css/global.css?<?php echo time(); ?>">
     <link rel="stylesheet" href="css/footer.css?<?php echo time(); ?>">
+
 </head>
