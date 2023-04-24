@@ -1,4 +1,4 @@
-<nav class="navbar desktop flex hide">
+<nav class="navbar flex">
 
     <div class="mobile">
         <div class="logo">
