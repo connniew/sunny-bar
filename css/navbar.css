@@ -5,19 +5,26 @@ header {
   background-color: #fdf49a;
 }
 
-.logo {
-  width: 10rem;
+.navbar {
   padding: 1rem;
 }
 
-.navbar {
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Work Sans", Arial, sans-serif;
+.navbar__desktop {
+  display: none;
 }
 
-.menu li {
-  margin: 1rem 2rem;
+.navbar__mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__mobile__logo {
+  width: 4rem;
+}
+
+.navbar__mobile__menu {
+  padding-right: 1rem;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -35,9 +42,33 @@ header {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   header {
-    background-color: lightblue;
+    /* background-color: lightblue; */
+  }
+
+  .navbar__mobile {
+    display: none;
+  }
+
+  .navbar__desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar__desktop__logo {
+    width: 10rem;
+  }
+
+  .navbar__desktop__menu {
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", Arial, sans-serif;
+  }
+
+  .navbar__desktop__menu li {
+    color: #364F6B;
+    margin: 1rem;
   }
 }
 

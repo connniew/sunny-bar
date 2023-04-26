@@ -1,13 +1,13 @@
-<nav class="navbar flex">
+<nav class="navbar">
 
-    <div class="mobile">
-        <img src="images/logo-mobile.png" class="logo" alt="logo">
-        <i class="menu fa-solid fa-bars fa-xl"></i>
+    <div class="navbar__mobile">
+        <img class="navbar__mobile__logo" src="images/logo-sun.png" alt="logo">
+        <i class="navbar__mobile__menu fa-solid fa-bars fa-xl"></i>
     </div>
 
-    <div class="desktop">
-        <img src="images/logo-desktop.png" class="logo" alt="logo">
-        <ul class="menu flex">
+    <div class="navbar__desktop">
+        <img class="navbar__desktop__logo" src="images/logo-desktop.png" alt="logo">
+        <ul class="navbar__desktop__menu">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Shop Online</a></li>
