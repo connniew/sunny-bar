@@ -1,6 +1,6 @@
 <nav class="navbar">
 
-    <img class="navbar__logo" src="images/logo-desktop.png" alt="logo">
+    <img class="navbar__logo" src="images/logo.png" alt="logo">
 
     <i class="navbar__mobile__menu fa-solid fa-bars fa-lg"></i>
 
