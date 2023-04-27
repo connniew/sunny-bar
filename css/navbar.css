@@ -1,29 +1,27 @@
 /* Y: #fdf49a; */
-/* B: #364F6B; */
+/* B: #364F6B; rgb(54, 79, 107) */
 
 header {
   background-color: #fdf49a;
 }
 
 .navbar {
-  padding: 1rem;
-}
-
-.navbar__desktop {
-  display: none;
-}
-
-.navbar__mobile {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
 }
 
-.navbar__mobile__logo {
+.navbar__logo {
   width: 8rem;
 }
 
+.navbar__desktop__menu {
+  display: none;
+}
+
 .navbar__mobile__menu {
+  color: #364f6b;
   padding-right: 1rem;
 }
 
@@ -44,20 +42,16 @@ header {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   header {
-    /* background-color: lightblue; */
+    background-color: lightblue;
+    /* background-color: #fdf49a; */
   }
 
-  .navbar__mobile {
+  .navbar__mobile__menu {
     display: none;
   }
 
-  .navbar__desktop {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .navbar__desktop__logo {
-    width: 10rem;
+  .navbar__logo {
+    width: 15rem;
   }
 
   .navbar__desktop__menu {
@@ -65,10 +59,16 @@ header {
     align-items: center;
     font-family: "Work Sans", Arial, sans-serif;
   }
-
-  .navbar__desktop__menu li {
+  
+  .navbar__desktop__menu a {
     color: #364F6B;
-    margin: 1rem;
+    margin: 0.5rem;
+    transition: 0.5s ease-in-out;
+  }
+
+  .navbar__desktop__menu a:hover {
+    background-color: #364F6B;
+    color: #FFF;
   }
 }
 

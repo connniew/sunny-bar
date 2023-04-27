@@ -2,17 +2,15 @@
 
     <img class="navbar__logo" src="images/logo-desktop.png" alt="logo">
 
-    <div class="navbar__mobile">
-        <i class="navbar__mobile__menu fa-solid fa-bars fa-xl"></i>
-    </div>
+    <i class="navbar__mobile__menu fa-solid fa-bars fa-lg"></i>
 
-    <ul class="navbar__desktop__menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Shop Online</a></li>
-        <li><a href="">Find Locations</a></li>
-        <li><a href="">Login/Sign Up</a></li>
-        <li><a href="">Shopping Cart</a></li>
-    </ul>
+    <div class="navbar__desktop__menu">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Shop Online</a>
+        <a href="">Find Locations</a>
+        <a href="">Login/Sign Up</a>
+        <a href="">Shopping Cart</a>
+    </div>
 
 </nav>
