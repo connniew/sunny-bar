@@ -1,71 +1,78 @@
 /* Y: #fdf49a; */
-/* B: #364F6B; rgb(54, 79, 107) */
+/* B: #364F6B; */
 
-header {
+.site-nav {
   background-color: #fdf49a;
+  padding: 1rem 1rem 0 1rem;
 }
 
-.navbar {
+.site-nav__navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  background-color: #fdf49a;
+  padding: 0.5rem 0 1rem;
 }
 
-.navbar__logo {
+.site-nav__logo {
   width: 8rem;
 }
 
-.navbar__desktop__menu {
-  display: none;
+.site-nav__hamburger {
+  margin-right: 1rem;
+  width: 1.2rem;
 }
 
-.navbar__mobile__menu {
-  color: #364f6b;
-  padding-right: 1rem;
+.site-nav__menu {
+  display: none;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 1rem;
+}
+
+.site-nav__menu a {
+  display: block;
+  color: #364F6B;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  header {
-    background-color: gold;
-  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  header {
-    background-color: greenyellow;
-  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  header {
-    background-color: lightblue;
-    /* background-color: #fdf49a; */
+@media (min-width: 992px) {  
+  .site-nav__navbar {
+    justify-content: center;
   }
 
-  .navbar__mobile__menu {
-    display: none;
-  }
-
-  .navbar__logo {
+  .site-nav__logo {
+    padding: 1rem 0;
     width: 15rem;
   }
 
-  .navbar__desktop__menu {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar__desktop__menu a {
-    color: #364F6B;
-    margin: 0.5rem;
-    transition: 0.5s ease-in-out;
+  .site-nav__hamburger {
+    display: none;
   }
 
-  .navbar__desktop__menu a:hover {
+  .site-nav__menu {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+  }
+  
+  .site-nav__menu a {
+    transition: all 1s ease-in-out;
+    padding: 0.2rem;
+  }
+
+  .site-nav__menu a:hover {
     background-color: #364F6B;
     color: #FFF;
   }
@@ -73,14 +80,14 @@ header {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  header {
-    background-color: turquoise;
-  }
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-  header {
-    background-color: deepskyblue;
-  }
+
+}
+
+.active {
+  display: block;
 }
