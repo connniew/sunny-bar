@@ -23,6 +23,6 @@
     <!-- css -->
     <link rel="stylesheet" href="css/global.css?<?php echo time(); ?>">
     <link rel="stylesheet" href="css/navbar.css?<?php echo time(); ?>">
-    <!-- <link rel="stylesheet" href="css/footer.css?<?php echo time(); ?>"> -->
+    <link rel="stylesheet" href="css/footer.css?<?php echo time(); ?>">
 
 </head>

@@ -1,0 +1,45 @@
+.site-footer {
+    background-color: #fdf49a;
+    color: #364F6B;
+    padding: 1rem;
+}
+
+.site-footer__block {
+    padding: 1rem;
+    text-align: center;
+}
+
+.site-footer__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.site-footer__privacy-policy,
+.site-footer__terms-of-service,
+.site-footer__social {
+    display: inline-block;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .site-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
