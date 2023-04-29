@@ -2,7 +2,7 @@
 <html lang="en">
     
 <?php include 'header.php';?>
-<link rel="stylesheet" href="css/home.css?<?php echo time(); ?>">
+<link rel="stylesheet" href="styles/home.css?<?php echo time(); ?>">
 
 <body>
     <header>

@@ -12,4 +12,4 @@
     </section>
 </footer>
 
-<script src="js/navbar.js?<?php echo time(); ?>"></script>
+<script src="scripts/navbar.js?<?php echo time(); ?>"></script>
