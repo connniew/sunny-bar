@@ -1,5 +1,5 @@
 .site-footer {
-    background-color: #fdf49a;
+    background-color: #93ced6;
     color: #364F6B;
     padding: 1rem;
 }
@@ -10,8 +10,8 @@
 }
 
 .site-footer__title {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
+    font-family: 'DM Serif Text', serif;  
+    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
