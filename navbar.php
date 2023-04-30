@@ -5,9 +5,9 @@
     </div>
 
     <ul class="site-nav__menu">
-        <li><a href="home.php">Home</a></li>    
-        <li><a href="">Shop</a></li>    
-        <li><a href="">Shopping Cart</a></li>
-        <li><a href="">Login/Sign Up</a></li>
+        <li><a href="home.php">home</a></li>    
+        <li><a href="">about us</a></li>    
+        <li><a href="">flavours</a></li>
+        <li><a href="">locations</a></li>
     </ul>
 </nav>
