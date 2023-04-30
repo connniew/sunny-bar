@@ -1,6 +1,6 @@
 <nav class="site-nav">
     <div class="site-nav__navbar">
-        <a href="home.php"><img class="site-nav__logo" src="images/logo-with-name.png" alt="Sunny Bar logo"></a>
+        <p class="site-nav__logo">sunny bar</p>
         <button class="site-nav__hamburger"><img src="images/icon-hamburger.svg" alt="mobile nav toggle"></button>
     </div>
 

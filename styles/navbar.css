@@ -2,7 +2,8 @@
 /* B: #364F6B; */
 
 .site-nav {
-  background-color: #fdf49a;
+  color: #364F6B;
+  border-bottom: 2px solid #eee;
   padding: 1rem 1rem 0 1rem;
 }
 
@@ -10,12 +11,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fdf49a;
   padding: 0.5rem 0 1rem;
 }
 
 .site-nav__logo {
-  width: 8rem;
+  font-family: 'DM Serif Text', serif;  
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .site-nav__hamburger {
@@ -25,7 +27,6 @@
 
 .site-nav__menu {
   display: none;
-  font-family: 'Lato', sans-serif;
   padding-bottom: 1rem;
 }
 
