@@ -11,20 +11,17 @@
 
     <main class="main-content">
         
-        <section class="main-content__block cta">
-            <h1 class="cta__heading">Indulge in handcrafted ice cream perfection</h1>
-            <h2 class="cta__subheading">Experience the creamy, rich flavors of our artisanal creations</h2>
-            <a class="cta__btn" href="">Discover our flavours</a>
+        <section class="main-content__cta">
+            <h1 class="main-content__heading">Indulge in handcrafted ice cream perfection</h1>
+            <h2 class="main-content__subheading">Experience the creamy, rich flavors of our artisanal creations</h2>
+            <a class="main-content__btn" href="">Discover our flavours</a>
         </section>
         
-        <section class="main-content__block">
-            <picture>
-                <source media="(min-width: 992px)" srcset="images/home.jpg">
-                <source media="(min-width: 768px)" srcset="images/home-tablet.jpg">
-                <img class="main-content__img" src="images/home.jpg" alt="">
-            </picture>
-            <!-- <img class="main-content__img" src="images/home-tablet.jpg" alt=""> -->
-        </section>
+        <picture class="main-content__img">
+            <source media="(min-width: 992px)" srcset="images/home.jpg">
+            <source media="(min-width: 768px)" srcset="images/home-tablet.jpg">
+            <img src="images/home.jpg" alt="store image">
+        </picture>
         
     </main>
     
