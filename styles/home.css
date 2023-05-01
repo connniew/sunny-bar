@@ -1,3 +1,78 @@
-h1 {
-    font-family: 'Playfair Display', serif;
+.main-content {
+    margin: 1rem;
 }
+
+.main-content__block {
+    margin: 1.5rem 0;
+}
+
+.main-content__img {
+    display: block;
+    width: 100%;
+}
+
+.cta {
+    padding: 1rem 0;
+}
+
+.cta__heading {
+    font-family: 'DM Serif Text', serif; 
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.cta__subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.cta__btn {
+    background-color: #fccb6f;
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main-content {
+        display: flex;
+        gap: 5%;
+    }
+
+    .main-content__block {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .cta {
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        justify-content: center;
+        padding: 6rem;
+    }
+
+    .cta__btn {
+        text-align: center;
+        transition: transform 350ms;
+        margin: 1rem 0;
+        width: 40%;
+    }
+
+    .cta__btn:hover {
+        transform: translateY(-5px);
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
