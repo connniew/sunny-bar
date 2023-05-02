@@ -10,7 +10,7 @@
 }
 
 .card {
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .card__content {
@@ -42,15 +42,12 @@
 
     .card__content {
         line-height: 2;
+        text-align: center;
     }
 
     .card__image, .card__content {
         width: 20rem;
     }
-    
-    /* .card__content, .card__container {
-        width: 50%;
-    } */
     
     .card__container {
         width: 50%;
