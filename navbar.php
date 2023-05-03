@@ -7,7 +7,7 @@
     <ul class="site-nav__menu">
         <li><a href="home.php">home</a></li>    
         <li><a href="aboutus.php">about us</a></li>    
-        <li><a href="">flavours</a></li>
+        <li><a href="flavours.php">flavours</a></li>
         <li><a href="">locations</a></li>
     </ul>
 </nav>
