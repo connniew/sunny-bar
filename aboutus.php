@@ -25,7 +25,7 @@
 
         <section class="card">
             <p class="card__content">But our shop is more than just ice cream. We believe that ice cream is more than just a dessert, it's a way to bring people together. We love being a part of our community and creating a fun, welcoming atmosphere where people can enjoy our ice cream with family and friends.</p> 
-            <img class="card__image" src="images/audrey-fred-icecream.jpg" alt="Marilyn Monroe eating ice cream">
+            <img class="card__image" src="images/two-icecream.jpg" alt="Marilyn Monroe eating ice cream">
         </section>
 
     </main>
