@@ -68,6 +68,7 @@
     .card {
         gap: 10%;
     }
+    
     .card__image, .card__content {
         width: 25rem;
     }
