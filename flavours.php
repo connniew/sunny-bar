@@ -49,14 +49,14 @@
             <p>A delicate floral ice cream with a nutty pistachio finish.</p>
         </div>
         <div class="flavour">
-            <img src="images/peachginger.jpg" alt="">
-            <h2>Peach Ginger</h2>
-            <p>Ripe peaches and spicy ginger come together in this refreshing and unique sorbet flavor.</p>
-        </div>
-        <div class="flavour">
             <img src="images/cherrycheesecake.jpg" alt="">
             <h2>Cherry Cheesecake</h2>
             <p>A creamy and tangy ice cream with swirls of sweet cherry sauce and chunks of rich cheesecake.</p>
+        </div>
+        <div class="flavour">
+            <img src="images/peachginger.jpg" alt="">
+            <h2>Peach Ginger</h2>
+            <p>Ripe peaches and spicy ginger come together in this refreshing and unique sorbet flavor.</p>
         </div>
 
         <div class="flavour">
@@ -70,9 +70,9 @@
             <p>This tangy combination of citrus flavors is bright, refreshing, and full of zesty flavor.</p>
         </div>
         <div class="flavour">
-            <img src="images/belgianchocolate.jpg" alt="">
-            <h2>Belgian Chocolate</h2>
-            <p>A decadent chocolate flavor made with the finest Belgian chocolate, creating a smooth and creamy texture.</p>
+            <img src="images/saltedcaramel.jpg" alt="">
+            <h2>Salted Caramel</h2>
+            <p>A buttery caramel flavor with a touch of sea salt, creating a perfect balance of sweet and salty.</p>
         </div>
 
         <div class="flavour">
@@ -81,9 +81,9 @@
             <p>Sweet and juicy blueberries paired with tart lemon make for a bright and refreshing sorbet flavor.</p>
         </div>
         <div class="flavour">
-            <img src="images/matchagreentea.jpg" alt="">
-            <h2>Matcha Green Tea</h2>
-            <p>A refreshing and antioxidant-rich ice cream made with premium Japanese matcha powder and sweet cream.</p>
+            <img src="images/cherryblossom.jpg" alt="">
+            <h2>Cherry Blossom</h2>
+            <p>A delicate flavor made with cherry blossom petals, giving it a floral, slightly sweet taste</p>
         </div>
         <div class="flavour">
             <img src="images/cardamomorange.jpg" alt="">
