@@ -28,10 +28,14 @@
 .flavours__name {
     font-size: 1rem;
     font-weight: 800;
-    margin: 2rem 0 0.2rem;
+    margin-top: 2rem;
 }
 
 .flavours__description {
+    margin: 0.5rem 0;   
+}
+
+.flavours__description, .flavours__price {
     font-size: 0.8rem;
 }
 
