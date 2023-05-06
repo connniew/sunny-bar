@@ -1,3 +1,7 @@
+.main-content__header {
+    margin-bottom: 1rem;
+}
+
 .flavours {
     display: flex;
     flex-wrap: wrap;
