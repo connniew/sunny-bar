@@ -21,6 +21,17 @@ a {
     cursor: pointer;
 }
 
+.main-content {
+    margin: 2rem;
+}
+
+.main-content__header {
+    font-family: 'DM Serif Text', serif;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 

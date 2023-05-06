@@ -1,14 +1,6 @@
-.main-content__header {
-    font-family: 'DM Serif Text', serif;
-    font-size: 2rem;
-    line-height: 1;
-    text-align: center;
-}
-
 .flavours {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem;
 }
 
 .flavours__flavour {
