@@ -1,17 +1,27 @@
-.flavours {
-    display: flex;
-    flex-wrap: wrap;
+.main-content {
     margin: 2rem;
 }
 
-.flavour {
+.main-content__header {
+    font-family: 'DM Serif Text', serif;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.flavours {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flavours__flavour {
     background-color: papayawhip;
     width: 80%;
     padding: 1rem;
     margin: 1rem auto;
 }
 
-.image {
+.flavours__image {
     background-color: paleturquoise;
     margin: auto;
     width: 10rem;
@@ -23,8 +33,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-    .flavour {
+    .flavours__flavour {
         flex: 0 0 40%;
     }
 }
@@ -35,7 +44,7 @@
         margin: 2rem 10%;
     }
 
-    .flavour {
+    .flavours__flavour {
         flex: 0 0 30%;
     }
 }
