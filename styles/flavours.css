@@ -31,11 +31,16 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
     .flavours__flavour {
         flex: 0 0 40%;
     }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
 }
 
 /* Large devices (desktops, 992px and up) */
