@@ -14,7 +14,7 @@
         <section class="cta">
             <h1 class="cta__heading">Indulge in handcrafted ice cream perfection</h1>
             <h2 class="cta__subheading">Experience the creamy, rich flavors of our artisanal creations</h2>
-            <a class="cta__btn" href="">Discover our flavours</a>
+            <a class="cta__btn" href="flavours.php">Discover our flavours</a>
         </section>
         
         <picture class="home-image">
