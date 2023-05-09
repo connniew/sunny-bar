@@ -9,6 +9,25 @@
         <?php include 'navbar.php';?>
     </header>
 
+    <?php
+    
+    require_once "config.php";
+
+    $sql = "SELECT * FROM product";
+    if($result = mysqli_query($link, $sql)){
+        if(mysqli_num_rows($result) > 0){
+            while($row = mysqli_fetch_array($result)){
+                echo $row['productName'];
+                echo "<br>";
+                echo $row['productDescription'];
+                echo "<br>";
+                echo $row['productPrice'];
+                echo "<br>";
+            }
+        }
+    }
+
+    ?>
     <main class="main-content">
         <h1 class="main-content__header">All Flavours</h1>
         <section class="flavours">
