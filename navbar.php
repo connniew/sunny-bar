@@ -8,6 +8,6 @@
         <li><a href="home.php">home</a></li>    
         <li><a href="aboutus.php">about us</a></li>    
         <li><a href="flavours.php">flavours</a></li>
-        <li><a href="">locations</a></li>
+        <li><a href="locations.php">locations</a></li>
     </ul>
 </nav>
