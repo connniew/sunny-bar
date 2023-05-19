@@ -10,18 +10,22 @@
     width: 100%;
 }
 
-.card__intersection {
+.contact {
+    margin: 2rem 0;
+}
+
+.contact__intersection {
     margin: 1rem 0;
 }
 
-.card__hours,
-.card__contact {
+.contact__hours,
+.contact__info {
     padding: 0.5rem 0;
 }
 
-.card__cta {
-    display: block;
+.contact__cta {
     background-color: #fccb6f;
+    display: block;
     margin: 1rem 0 0.5rem;
     padding: 1rem;
     text-align: center;
@@ -32,13 +36,13 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .card {
+    /* .card {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 5%;
         margin: 3rem 0;
-    }
+    } */
 
     .card--reverse {
         flex-direction: row-reverse;
