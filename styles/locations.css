@@ -1,0 +1,71 @@
+.card {
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.card__image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card__intersection {
+    margin: 1rem 0;
+}
+
+.card__hours,
+.card__contact {
+    padding: 0.5rem 0;
+}
+
+.card__cta {
+    display: block;
+    background-color: #fccb6f;
+    margin: 1rem 0 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        margin: 3rem 0;
+    }
+
+    .card--reverse {
+        flex-direction: row-reverse;
+    }
+
+    .card__image {
+        width: 20rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card {
+        gap: 10%;
+    }
+
+    .card__image {
+        width: 25rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card__image {
+        width: 30rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
