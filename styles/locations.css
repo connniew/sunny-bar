@@ -1,5 +1,5 @@
 .card {
-    background-color: #FFF;
+    /* background-color: #FFF; */
     border-radius: 10px;
     margin: 2rem 0;
     padding: 1rem;
@@ -60,11 +60,15 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .card {
-        gap: 10%;
+        justify-content: space-evenly;
     }
 
     .card__image {
         width: 25rem;
+    }
+
+    .contact__cta:hover {
+        background-color: #fcf8f6;
     }
 }
 
