@@ -36,13 +36,12 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    /* .card {
+    .card {
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 5%;
+        justify-content: space-around;
         margin: 3rem 0;
-    } */
+    }
 
     .card--reverse {
         flex-direction: row-reverse;
@@ -50,6 +49,11 @@
 
     .card__image {
         width: 20rem;
+    }
+
+    .contact__hours p,
+    .contact__info p {
+        margin: 0.5rem 0;
     }
 }
 
